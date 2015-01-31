@@ -1,4 +1,4 @@
-/Users/jimbob
+I AM MAKING CHANGES FOR GIT.
 
 cd - change directory
 
