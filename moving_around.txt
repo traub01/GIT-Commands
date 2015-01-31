@@ -1,0 +1,88 @@
+/Users/jimbob
+
+cd - change directory
+
+cd / takes you to root.
+
+ls - list out contents of directory
+
+ls modifiers -
+  -t lists directories top down
+  -l lists long name of files
+
+ls -lt - you can combine modifiers
+
+ll - more readable format (memory)
+
+ls -r - reverse order
+
+ls -C - multi column output (if not default)
+
+ls -x - rows instead of columns
+
+man - manual of commands (short for manual)
+
+case sensitivity does matter in UNIX (not windows). write file names in lower case.
+
+naming conventions - do not use spaces in file names, try to use dashes and underscores.
+
+cd - change directory
+
+cd .. - go up one directory
+
+cd ../.. - go up 2 directories
+
+redirection operator - > will create a file. example; history > moving.txt sends the text of the history to a file called moving.txt (creates the file)
+
+redirection operator - >> will append a file. example; history >> moving.txt sends the text of the history to a file called moving.txt (creates the file)
+
+history | less
+history
+subl .
+pwd
+cd
+cd ..
+ls
+cd desktop
+cs desktop
+cd /Users/jimbob
+ll
+ls -a
+ls -o
+ls -x
+ls -C
+man ls
+ls -r
+ls -rl
+ls - rl
+ls -lt
+cd /
+echo $EDITOR
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email 'traub01@outlook.com'
+git config --global user.name 'James Traub'
+git --version
+brew install git
+echo $SHELL
+echo $PATH
+echo $editor
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+uname
+brew info fish
+brew in
+fish_update_completions
+curl -fsSL http://git.io/FzAR | ruby
+exit
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+brew doctor
+brew update
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+whoami
+gcc --version
+xcode-select -p
+xcode-select --install
+gcc
